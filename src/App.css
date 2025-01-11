@@ -1,0 +1,107 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; /* Full height for desktop */
+  background-color: #f8f9fa;
+}
+
+.header {
+  background-color: #1a1a1a;
+  padding: 20px;
+  display: flex;
+  align-items: center; /* Aligns the logo and text vertically */
+  
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-size: 2rem;
+  margin-left: 1%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 500px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px; /* Reduced to properly position list items */
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.add-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.item {
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: left;
+}
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  /* margin-right: 10px; Space between logo and title */
+  margin-left: 500px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 20px;
+  }
+
+  .input-box, .add-button {
+    font-size: 14px;
+  }
+}

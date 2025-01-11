@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-      <img src={Image} alt="Logo" className="logo" /> {/* Adding logo here */}
+      <img src={Image} alt="Logo" className="logo" /> 
         <h1 className="header-title">Item List Manager</h1>
       </header>
       <main className="main-container">

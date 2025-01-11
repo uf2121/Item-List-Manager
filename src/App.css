@@ -1,4 +1,4 @@
-/* General Styles */
+
 body, html {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body, html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh; /* Full height for desktop */
+  height: 100vh; 
   background-color: #f8f9fa;
 }
 
@@ -18,8 +18,7 @@ body, html {
   background-color: #1a1a1a;
   padding: 20px;
   display: flex;
-  align-items: center; /* Aligns the logo and text vertically */
-  
+  align-items: center; 
 }
 
 .header-title {
@@ -43,7 +42,7 @@ body, html {
   align-items: center;
   width: 100%;
   max-width: 400px;
-  margin-bottom: 20px; /* Reduced to properly position list items */
+  margin-bottom: 20px;
 }
 
 .input-box {
@@ -89,13 +88,11 @@ body, html {
   text-align: left;
 }
 .logo {
-  width: 50px; /* Adjust the width as needed */
+  width: 50px; 
   height: auto;
-  /* margin-right: 10px; Space between logo and title */
   margin-left: 500px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .header-title {
     font-size: 20px;

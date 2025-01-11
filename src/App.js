@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import Image from "./image.png"; // Importing logo here
+import Image from "./image.png"; 
 
 
 function App() {
